@@ -222,7 +222,6 @@ button:focus {
   block-size: 100%;
   padding: 0;
   margin: 0;
-  border: none;
   border: 2px solid transparent;
   transition: border .3s ease;
 }
