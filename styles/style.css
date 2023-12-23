@@ -21,7 +21,7 @@
   color: var(--accent-color);
   background-image: var(--background-img);
   background-size: cover;
-  background-attachment: fixed; 
+  background-attachment: fixed;
   font-variation-settings: "wght" var(--main-weight-text);
 }
 
@@ -96,7 +96,7 @@ button:focus {
   }
 }
 
-.theme-menu__button:disabled::before{
+.theme-menu__button:disabled::before {
   content: '▶';
   position: absolute;
   left: -20px;
@@ -257,9 +257,9 @@ button:focus {
 
 .similar-button::before {
   content: '';
-  position: absolute; 
+  position: absolute;
   background-color: var(--accent-color);
-  left: 0; 
+  left: 0;
   top: 0;
   transform-origin: left;
   transform: scaleX(0);
@@ -293,11 +293,11 @@ button:focus {
 }
 
 .button__text, 
-.button__icon  {
+.button__icon {
   position: relative;
   z-index: 1;
   fill: #000;
-  color: var(--button-color); 
+  color: var(--button-color);
   mix-blend-mode: difference;
 }  
 
@@ -383,7 +383,7 @@ button:focus {
     padding: 0 25px;
   }
 
-  .button__icon{
+  .button__icon {
 		block-size: 28px;
 	}
 }
